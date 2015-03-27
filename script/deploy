@@ -1,7 +1,7 @@
 #!/bin/sh
  
 ssh hector@ubuntu <<EOF
-  cd ~/hello-jenkins
+  cd ~/jenkins/hello-jenkins
 #  git pull
 #  npm install --production
   pid=`ps aux | grep 'nodejs app.js' | head -1 |  awk '{print $2}'`
